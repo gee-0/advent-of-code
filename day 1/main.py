@@ -10,7 +10,6 @@ input = read_file('input.txt')
 
 
 # calculate how many times the next number is greater than the previous from input
-
 count = 0
 for i in range(len(input)):
     if i == 0:
